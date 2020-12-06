@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(to top, rgb(112, 106, 106) 0%, #000 100%);
+}
+
+h1,
+figcaption,
+p,
+ul,
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  line-height: 1.5;
+}
+h1 {
+  margin: 30px auto 25px;
+  color: rgb(192, 187, 187);
+}
+
+hr {
+  border-color: #fff;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+figcaption {
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+}
+
+p {
+  color: #fff;
+  font-size: 22px;
+  padding: 8px;
+}
+
+ul {
+  color: #fff;
+  font-size: 16px;
+}
+
+.dogs {
+  text-align: center;
+  padding: 0;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(44, 42, 42);
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  font-size: 19px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(245, 240, 240, 0.15);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  border: none;
+}
