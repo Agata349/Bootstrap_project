@@ -2,7 +2,6 @@ body {
   background-image: linear-gradient(to top, rgb(112, 106, 106) 0%, #000 100%);
 }
 
-h1,
 figcaption,
 p,
 ul,
@@ -10,10 +9,6 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   line-height: 1.5;
-}
-h1 {
-  margin: 30px auto 25px;
-  color: rgb(192, 187, 187);
 }
 
 hr {
@@ -33,17 +28,6 @@ figcaption {
   padding: 8px;
 }
 
-p {
-  color: #fff;
-  font-size: 22px;
-  padding: 8px;
-}
-
-ul {
-  color: #fff;
-  font-size: 16px;
-}
-
 .dogs {
   text-align: center;
   padding: 0;
@@ -51,6 +35,10 @@ ul {
 
 img {
   border-radius: 5px;
+}
+
+.dark {
+  color: #fff;
 }
 
 .button a {

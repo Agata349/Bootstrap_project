@@ -4,21 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="styles.css" type="text/css">
+    
     <title>Responsive image grid</title>
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Our dogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our cats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Make a donation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        About us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">History</a></li>
+                        <li><a class="dropdown-item" href="#">Meet the team</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr />
     <section class="dogs">
         <div class="container">
-            <h1><strong>DOGS, PUPPIES, CATS? WOULD YOU LIKE TO HELP THEM?</strong></h1>
             <div class="row">
                 <div class="col-md-4">
                     <figure>
                         <img src="img/dachshund.jpg" class="img-fluid" alt="image of a dachshund" />
-                        <figcaption>Dachshund<a href="https://en.wikipedia.org/wiki/Dachshund" target="_blank">
+                        <figcaption>Dachshund<a class="dark" href="https://en.wikipedia.org/wiki/Dachshund" target="_blank">
                                 <small>Learn more on Wikipedia</small></a></figcaption>
                     </figure>
                 </div>
@@ -26,7 +71,7 @@
                 <div class="col-md-4">
                     <figure>
                         <img src="img/spaniel.jpg" class="img-fluid" alt="image of a spaniel" /></a>
-                        <figcaption>Spaniel<a href="https://en.wikipedia.org/wiki/Spaniel" target="_blank"> <small>Learn
+                        <figcaption>Spaniel<a class="dark" href="https://en.wikipedia.org/wiki/Spaniel" target="_blank"> <small>Learn
                                     more on Wikipedia</small></a></figcaption>
                     </figure>
                 </div>
@@ -34,28 +79,39 @@
                 <div class="col-md-4">
                     <figure>
                         <img src="img/golden_retriever.jpg" class="img-fluid" alt="image of a golden retriever" />
-                        <figcaption>Golden Retriever<a href="https://en.wikipedia.org/wiki/Golden_Retriever"
+                        <figcaption>Golden Retriever<a class="dark" href="https://en.wikipedia.org/wiki/Golden_Retriever"
                                 target="_blank"> <small>Learn more on Wikipedia</small></a></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="img/german_shepherd.jpg" class="img-fluid" alt="image of a german shepherd" />
+                        <figcaption>German Sheperd<a class="dark" href="https://en.wikipedia.org/wiki/German_Shepherd"  target="_blank">
+                                <small>Learn more on Wikipedia</small></a></figcaption>
+                    </figure>
+                </div>
+            
+                <div class="col-md-4">
+                    <figure>
+                        <img src="img/border_colie.jpg" class="img-fluid" alt="image of a border colie" /></a>
+                        <figcaption>Border Colie<a class="dark" href="https://pl.wikipedia.org/wiki/Border_collie" target="_blank"> <small>Learn
+                                    more on Wikipedia</small></a></figcaption>
+                    </figure>
+                </div>
+            
+                <div class="col-md-4">
+                    <figure>
+                        <img src="img/mixed_breed.jpg" class="img-fluid" alt="image of a mixed-breed dogs" />
+                        <figcaption>Mixed-breed dogs<a class="dark" href="https://en.wikipedia.org/wiki/Mongrel" target="_blank">
+                                <small>Learn more on Wikipedia</small></a></figcaption>
                     </figure>
                 </div>
             </div>
         </div>
     </section>
     <hr>
-    <p>
-        And you? What king of dogs do you like?
-    </p>
-    <ul>
-        <li>
-            Small?🐶
-        </li>
-        <li>
-            Medium?🐕
-        </li>
-        <li>
-            Large?🐕‍🦺
-        </li>
-    </ul>
     <button class="button">
         <a href="https://www.schronisko-katowice.eu/" target="_blank">Choose your best friend from the Polish dog
             shelter</a>
@@ -65,7 +121,7 @@
         Coded by Agata Piekarczyk
     </footer>
     <script>
-        function chooseDog() {
+        /*function chooseDog() {
             let name = prompt("What is your name?");
             if (name.length > 0) {
                 alert("Thank you " + name + ". Please take a look at dogs and cats😼 from an animal shelter in Katowice, Poland 🐕");
@@ -75,7 +131,7 @@
         }
 
         let chooseDogButton = document.querySelector("button");
-        chooseDogButton.addEventListener("click", chooseDog);
+        chooseDogButton.addEventListener("click", chooseDog); */
 
     </script>
 </body>
