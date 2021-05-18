@@ -1,10 +1,20 @@
 body {
-  background-image: linear-gradient(to top, rgb(112, 106, 106) 0%, #000 100%);
+  background-image: url("./img/background.jpg");
+}
+
+h1 {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #6f787a;
+  opacity: 0.9;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
 }
 
 figcaption,
 p,
-ul,
 footer {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
